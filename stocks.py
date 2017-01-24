@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as matTicker
 import matplotlib.dates as matDates
-import matplotlib.finance
+from matplotlib.finance import candlestick_ohlc
 import matplotlib
 import pylab
 from urllib.request import urlopen
@@ -45,7 +45,7 @@ def graphStockData(symbol):
 	ax = plt.subplot(1,1,1)# (1,1,1) defines 1 grid
 
 	# graph in the form of candles
-	candlestick(ax, candleArray, width=.75, colorup="g", colordown="r")
+	candlestick_ohlc(ax, candleArray, width=.75, colorup="g", colordown="r")
 
 	movingAvg1 = 50
 	movingAvg2 = 200
