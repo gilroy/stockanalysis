@@ -2,7 +2,7 @@
 Currently, the application will ask for a stock ticker symbol. Once entered, it graph 2 years worth of historical data using a Yahoo Finance API.
 
 # Dependencies
-Matplotlib and Numpy are a _must_. I recommend running the program with Anaconda to avoid any issues.
+Matplotlib and Numpy are a _must_. I recommend running the program with [Anaconda](https://www.continuum.io/downloads) to avoid any issues.
 
 # TODO
 - Robinhood stock trading integration
