@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as matTicker
 import matplotlib.dates as matDates
-from matplotlib.finance import candlestick
+import matplotlib.finance
 import matplotlib
 import pylab
 from urllib.request import urlopen
