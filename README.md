@@ -3,10 +3,10 @@ Currently, the application will ask for a stock ticker symbol. Once entered, it 
 
 ![](/screenshot.png)
 
-# Dependencies
+## Dependencies
 Matplotlib and Numpy are a _must_. I recommend running the program with [Anaconda](https://www.continuum.io/downloads) to avoid any issues.
 
-# TODO
+## TODO
 - Robinhood stock trading integration
 - tkinter GUI
 - Graphing volume/time separately
